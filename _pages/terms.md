@@ -4,7 +4,6 @@ title: "Privacy policy"
 ---
 
 {% include base_path %}
-{% include toc %}
 
 This privacy policy outlines the types of personal information that is received and collected and how it is used.
 
@@ -18,7 +17,7 @@ Like many other websites, this site uses log files to help learn about when, fro
 * Referring and exit pages
 * Number of clicks
 
-All of this information is not linked to anything that is personally identifiable.
+None this information is linked to anything that is personally identifiable.
 
 ## Cookie usage
 
