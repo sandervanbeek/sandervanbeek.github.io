@@ -1,16 +1,14 @@
 ---
 permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
+title: "Privacy policy"
 ---
 
 {% include base_path %}
 {% include toc %}
 
-## Privacy Policy
-This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+This privacy policy outlines the types of personal information that is received and collected and how it is used.
 
-### Website analytics 
+## Website analytics 
 Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
 
 * Internet Protocol addresses (IP)
@@ -22,10 +20,10 @@ Like many other websites, this site uses log files to help learn about when, fro
 
 All of this information is not linked to anything that is personally identifiable.
 
-### Cookie usage
+## Cookie usage
 
 This website does not use cookies.
 
-### Linked services
+## Linked services
 
 This website contains links to other services. If you follow these links, you should become aware of their terms of service.
