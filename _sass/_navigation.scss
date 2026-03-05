@@ -436,10 +436,17 @@
    ========================================================================== */
 
 .greedy-nav .visible-links {
-  display: flex;             // ensure Flexbox layout
-  justify-content: flex-end; // push items to the right
+  display: table;          // keep table layout
+  width: 100%;             // fill horizontal space
+  text-align: right;       // push items to the right
 }
 
 .greedy-nav .visible-links li {
-  margin-left: 20px;         // spacing between items
+  display: table-cell;     // keep original
+  vertical-align: middle;
+  padding-left: 20px;      // spacing between items
+}
+
+.greedy-nav .visible-links li:first-child {
+  padding-left: 0;         // remove extra padding from first item
 }
