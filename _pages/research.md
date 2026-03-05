@@ -4,7 +4,7 @@ permalink: /research/
 author_profile: true
 ---
 
-Work in progress:
+Work in progress
 ------
 Testing for Unobserved Heterogeneity in Duration Analysis Using Time-Varying Explanatory Variables (with Gerard van den Berg (University of Groningen) and Bo Honor&eacute; (Princeton University))
 
