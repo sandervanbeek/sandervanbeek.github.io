@@ -202,51 +202,58 @@
   }
 
 .visible-links {
-  text-align: right;
-  padding-right: 3rem;   // make room for the menu button
+  display: flex;
+  align-items: center;
+  padding-right: 3rem;                // space for the absolutely positioned menu button
+  list-style: none;
+  margin: 0;
 
   li {
-    display: inline-block;
-    vertical-align: middle;
+    display: block;                    // flex items can be block
 
     &:first-child {
       font-weight: bold;
+      margin-right: auto;               // pushes all subsequent items to the right
 
       a {
-        margin-left: 0;
+        margin-left: 0;                 // keep original left margin reset
       }
     }
 
     &:last-child {
       a {
-        margin-right: 0;
+        margin-right: 0;                // keep original right margin reset
       }
     }
   }
 
   a {
     position: relative;
+    display: inline-block;              // ensures padding/margins work correctly
+    // all the original link styles stay exactly the same
+    // (the :before pseudo‑element for the underline, etc.)
+  }
 
-    &:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      height: 4px;
-      background: mix(#fff, $primary-color, 50%);
-      width: 100%;
-      -webkit-transition: $global-transition;
-      transition: $global-transition;
-      -webkit-transform: scaleX(0);
-          -ms-transform: scaleX(0);
-              transform: scaleX(0); /* hide*/
-    }
+  /* preserve the underline hover effect */
+  a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    background: mix(#fff, $primary-color, 50%);
+    width: 100%;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+  }
 
-    &:hover:before {
-      -webkit-transform: scaleX(1);
-          -ms-transform: scaleX(1);
-              transform: scaleX(1); /* reveal*/
-    }
+  a:hover:before {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
   }
 }
 
