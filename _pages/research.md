@@ -14,3 +14,9 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+Work in progress:
+------
+_Testing for Unobserved Heterogeneity in Duration Analysis Using Time-Varying Explanatory Variables_ (with Gerard van den Berg (University of Groningen) and Bo Honoré (Princeton University)
+
+_Semiparametric Estimation of Transformation Models with Interaction Effects between Observed and Unobserved Determinants_ (with Gerard van den Berg (University of Groningen) and Enno Mammen (Heidelberg University)
