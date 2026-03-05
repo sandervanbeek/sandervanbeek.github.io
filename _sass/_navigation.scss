@@ -204,56 +204,52 @@
 .visible-links {
   display: flex;
   align-items: center;
-  padding-right: 3rem;                // space for the absolutely positioned menu button
-  list-style: none;
-  margin: 0;
+  padding-right: 3rem;   // space for the menu button – adjust if needed
 
   li {
-    display: block;                    // flex items can be block
+    // no display override – let it be the default (list-item)
+    // flex container makes them flex items automatically
 
     &:first-child {
       font-weight: bold;
-      margin-right: auto;               // pushes all subsequent items to the right
+      margin-right: auto;   // pushes all following items to the right
 
       a {
-        margin-left: 0;                 // keep original left margin reset
+        margin-left: 0;     // keep original first-child link margin reset
       }
     }
 
     &:last-child {
       a {
-        margin-right: 0;                // keep original right margin reset
+        margin-right: 0;    // keep original last-child link margin reset
       }
     }
   }
 
   a {
     position: relative;
-    display: inline-block;              // ensures padding/margins work correctly
-    // all the original link styles stay exactly the same
-    // (the :before pseudo‑element for the underline, etc.)
-  }
+    // do NOT set display – let it inherit from .greedy-nav a (which is block)
 
-  /* preserve the underline hover effect */
-  a:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    background: mix(#fff, $primary-color, 50%);
-    width: 100%;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-    -webkit-transform: scaleX(0);
-        -ms-transform: scaleX(0);
-            transform: scaleX(0);
-  }
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 4px;
+      background: mix(#fff, $primary-color, 50%);
+      width: 100%;
+      -webkit-transition: $global-transition;
+      transition: $global-transition;
+      -webkit-transform: scaleX(0);
+          -ms-transform: scaleX(0);
+              transform: scaleX(0);
+    }
 
-  a:hover:before {
-    -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-            transform: scaleX(1);
+    &:hover:before {
+      -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+              transform: scaleX(1);
+    }
   }
 }
 
