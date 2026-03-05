@@ -430,3 +430,16 @@
     }
   }
 }
+
+/*
+   Custom
+   ========================================================================== */
+
+.greedy-nav .visible-links {
+  display: flex;             // ensure Flexbox layout
+  justify-content: flex-end; // push items to the right
+}
+
+.greedy-nav .visible-links li {
+  margin-left: 20px;         // spacing between items
+}
