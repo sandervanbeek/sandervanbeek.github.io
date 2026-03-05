@@ -60,4 +60,3 @@ Grading
 Service and leadership
 ------
 * 2023-2024: Vice-president of the General Board of [ESN Groningen](https://www.esn-groningen.nl)
-* 2022-2023: Treasurer and Vice-president of [Ganymedes LGBT+ Student Association Groningen](https://www.ganymedes-lgbt.nl)
