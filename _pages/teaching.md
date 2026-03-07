@@ -25,7 +25,7 @@ Teaching
 Grading
 * 2021: [Introduction to Actuarial Science](https://ocasys.rug.nl/2020-2021/catalog/course/EBB827A05) (BSc) (University of Groningen)
 
-Other
+Course development
 * 2022-2023: [Probability Theory for EOR](https://ocasys.rug.nl/2022-2023/catalog/course/EBP014B05) (BSc) (University of Groningen)
 * 2022-2023: [Risk Insurance](https://ocasys.rug.nl/2022-2023/catalog/course/EBB863A05) (BSc) (University of Groningen)
 * 2020-2021: [Statistical Modelling for EOR](https://ocasys.rug.nl/2020-2021/catalog/course/EBP008B05) (BSc) (University of Groningen)
