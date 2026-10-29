@@ -14,4 +14,4 @@ Testing for Unobserved Heterogeneity in Duration Analysis Using Time-Varying Exp
 
 Semiparametric Estimation of Transformation Models with Interaction Effects between Observed and Unobserved Determinants (with Gerard van den Berg and Enno Mammen)
 
-<p style="margin-top: 4em;"><em>Drafts are available upon request.</em></p>
+<p style="margin-top: 3em;"><em>Drafts are available upon request.</em></p>
