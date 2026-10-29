@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Sander van Beek"
 title_separator          : "-"
 name                     : &name "Sander van Beek"
-description              : &description "Hello! I am a PhD candidate at the University of Groningen, The Netherlands. My research interests include duration analysis and non-parametric statistics."
+description              : &description "I am a PhD candidate in econometrics at the University of Groningen. I work on duration analysis and semiparametric estimation. I am on the 2026/27 job market!"
 url                      : https://sandervanbeek.com
 baseurl                  : ""
 repository               : "sandervanbeek/sandervanbeek.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Sander van Beek"
   pronouns         :
-  bio              : "PhD candidate in Econometrics"
+  bio              : "PhD candidate in econometrics"
   location         : "Groningen, The Netherlands"
   employer         : "University of Groningen"
   uri              : #"https://www.rug.nl/staff/s.g.h.van.beek/"
@@ -42,7 +42,7 @@ author:
   bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "sandervanbeek"
+  github           : #"sandervanbeek"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
