@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a fourth-year PhD candidate in Econometrics at the University of Groningen, supervised by prof. dr. Gerard van den Berg and prof. dr. Tom Boot. In the Fall of 2026, I visited Princeton University, hosted by prof. dr. Bo Honor&eacute;. 
+Welcome! I am a fourth-year PhD candidate in Econometrics at the University of Groningen, supervised by Gerard van den Berg and Tom Boot. In the Fall of 2026, I visited Princeton University, hosted by Bo Honor&eacute;. 
 
 I am interested in duration analysis and in semiparametric and nonparametric methods. My research focuses on the identification and estimation of duration models with unobserved heterogeneity, with applications to unemployment durations.
 
