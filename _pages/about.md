@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a fourth-year PhD candidate in Econometrics at the University of Groningen, supervised by prof. dr. Gerard van den Berg and prof. dr. Tom Boot. In the Fall of 2026, I visited Princeton University, hosted by prof. dr. Bo Honoré. 
+Welcome! I am a fourth-year PhD candidate in Econometrics at the University of Groningen, supervised by prof. dr. Gerard van den Berg and prof. dr. Tom Boot. In the Fall of 2026, I visited Princeton University, hosted by prof. dr. Bo Honor&eacute;. 
 
 I obtained a BSc in Econometrics and a Research Master in Economics from the University of Groningen.
 
