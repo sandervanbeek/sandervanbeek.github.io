@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a fourth-year PhD candidate in Econometrics at the University of Groningen, supervised by prof. dr. Gerard van den Berg and prof. dr. Tom Boot. I obtained a BSc in Econometrics and a Research Master in Economics from the University of Groningen.
+Welcome! I am a fourth-year PhD candidate in Econometrics at the University of Groningen, supervised by prof. dr. Gerard van den Berg and prof. dr. Tom Boot. In the Fall of 2026, I visited Princeton University, hosted by prof. dr. Bo Honoré. 
+
+I obtained a BSc in Econometrics and a Research Master in Economics from the University of Groningen.
 
 I am interested in duration analysis and nonparametric estimation. My PhD research focuses on modeling and identifying unobserved heterogeneity in duration models.
 
-**I am on the job market 26/27.** My cv can be found [here](https://drive.google.com/file/d/1dVtYVVJeqJPjwZ6c2DRBVaVJOCLZnuwZ/view?usp=share_link).
+**I am on the job market 26/27.** My cv can be found [here](/files/curriculum-vitae.pdf).
 
 Feel free to reach out to me!
 
